@@ -1,0 +1,31 @@
+.signup svg {
+    transition: all .3s ease;
+}
+
+.signup span {
+    transition: all .3s ease;
+}
+
+.signup:hover span {
+    transform: translateX(-2px);
+}
+
+.signup:hover svg {
+    transform: translateX(2px);
+}
+
+/* Hide scrollbar for Webkit-based browsers */
+::-webkit-scrollbar {
+    display: none;
+    /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+    /* This makes the track invisible */
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+    /* This makes the thumb (the draggable part) invisible */
+}
